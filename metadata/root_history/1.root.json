@@ -1,0 +1,67 @@
+{
+ "signatures": [
+  {
+   "keyid": "0ae892af257db2af12cf75f0c517736db1b9e2a8cd4c7255a6c8e8503a4d369d",
+   "sig": ""
+  }
+ ],
+ "signed": {
+  "_type": "root",
+  "consistent_snapshot": true,
+  "expires": "2027-08-24T18:08:23Z",
+  "keys": {
+   "0ae892af257db2af12cf75f0c517736db1b9e2a8cd4c7255a6c8e8503a4d369d": {
+    "keytype": "sigstore-oidc",
+    "keyval": {
+     "identity": "xcerteu@gmail.com",
+     "issuer": "https://github.com/login/oauth"
+    },
+    "scheme": "Fulcio",
+    "x-tuf-on-ci-keyowner": "@xcert-eu"
+   },
+   "6d223216f9713d3d76f552d09bb9d17e61c213a9b982b73f9cd14ff7106bb8b0": {
+    "keytype": "sigstore-oidc",
+    "keyval": {
+     "identity": "https://github.com/xcert-eu/tuf-on-ci-template/.github/workflows/online-sign.yml@refs/heads/main",
+     "issuer": "https://token.actions.githubusercontent.com"
+    },
+    "scheme": "Fulcio",
+    "x-tuf-on-ci-online-uri": "sigstore:"
+   }
+  },
+  "roles": {
+   "root": {
+    "keyids": [
+     "0ae892af257db2af12cf75f0c517736db1b9e2a8cd4c7255a6c8e8503a4d369d"
+    ],
+    "threshold": 1
+   },
+   "snapshot": {
+    "keyids": [
+     "6d223216f9713d3d76f552d09bb9d17e61c213a9b982b73f9cd14ff7106bb8b0"
+    ],
+    "threshold": 1,
+    "x-tuf-on-ci-expiry-period": 365,
+    "x-tuf-on-ci-signing-period": 60
+   },
+   "targets": {
+    "keyids": [
+     "0ae892af257db2af12cf75f0c517736db1b9e2a8cd4c7255a6c8e8503a4d369d"
+    ],
+    "threshold": 1
+   },
+   "timestamp": {
+    "keyids": [
+     "6d223216f9713d3d76f552d09bb9d17e61c213a9b982b73f9cd14ff7106bb8b0"
+    ],
+    "threshold": 1,
+    "x-tuf-on-ci-expiry-period": 2,
+    "x-tuf-on-ci-signing-period": 1
+   }
+  },
+  "spec_version": "1.0.31",
+  "version": 1,
+  "x-tuf-on-ci-expiry-period": 365,
+  "x-tuf-on-ci-signing-period": 60
+ }
+}
