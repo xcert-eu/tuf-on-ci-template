@@ -8,7 +8,7 @@
  "signed": {
   "_type": "root",
   "consistent_snapshot": true,
-  "expires": "2027-08-25T16:05:29Z",
+  "expires": "2027-08-25T16:13:06Z",
   "keys": {
    "0ae892af257db2af12cf75f0c517736db1b9e2a8cd4c7255a6c8e8503a4d369d": {
     "keytype": "sigstore-oidc",
@@ -27,6 +27,15 @@
     },
     "scheme": "Fulcio",
     "x-tuf-on-ci-online-uri": "sigstore:"
+   },
+   "ca0c638a7edebcfab4556ef05b17d72559029651b0e28833fac3fd6676acbad5": {
+    "keytype": "sigstore-oidc",
+    "keyval": {
+     "identity": "aociacionpeds@gmail.com",
+     "issuer": "https://github.com/login/oauth"
+    },
+    "scheme": "Fulcio",
+    "x-tuf-on-ci-keyowner": "@apeds-es"
    }
   },
   "roles": {
@@ -46,7 +55,8 @@
    },
    "targets": {
     "keyids": [
-     "0ae892af257db2af12cf75f0c517736db1b9e2a8cd4c7255a6c8e8503a4d369d"
+     "0ae892af257db2af12cf75f0c517736db1b9e2a8cd4c7255a6c8e8503a4d369d",
+     "ca0c638a7edebcfab4556ef05b17d72559029651b0e28833fac3fd6676acbad5"
     ],
     "threshold": 2
    },
