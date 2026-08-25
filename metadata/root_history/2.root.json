@@ -8,7 +8,7 @@
  "signed": {
   "_type": "root",
   "consistent_snapshot": true,
-  "expires": "2027-08-25T16:13:06Z",
+  "expires": "2027-08-25T16:15:22Z",
   "keys": {
    "0ae892af257db2af12cf75f0c517736db1b9e2a8cd4c7255a6c8e8503a4d369d": {
     "keytype": "sigstore-oidc",
@@ -18,6 +18,15 @@
     },
     "scheme": "Fulcio",
     "x-tuf-on-ci-keyowner": "@xcert-eu"
+   },
+   "322c0c4acd7dc9e8b51963d7a281fdab2c246b2d937a97d39df09d35fb2e34e2": {
+    "keytype": "sigstore-oidc",
+    "keyval": {
+     "identity": "sgarcavi93@gmail.com",
+     "issuer": "https://github.com/login/oauth"
+    },
+    "scheme": "Fulcio",
+    "x-tuf-on-ci-keyowner": "@sga03015"
    },
    "6d223216f9713d3d76f552d09bb9d17e61c213a9b982b73f9cd14ff7106bb8b0": {
     "keytype": "sigstore-oidc",
@@ -56,7 +65,8 @@
    "targets": {
     "keyids": [
      "0ae892af257db2af12cf75f0c517736db1b9e2a8cd4c7255a6c8e8503a4d369d",
-     "ca0c638a7edebcfab4556ef05b17d72559029651b0e28833fac3fd6676acbad5"
+     "ca0c638a7edebcfab4556ef05b17d72559029651b0e28833fac3fd6676acbad5",
+     "322c0c4acd7dc9e8b51963d7a281fdab2c246b2d937a97d39df09d35fb2e34e2"
     ],
     "threshold": 2
    },
