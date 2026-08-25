@@ -1,0 +1,37 @@
+{
+  "mediaType": "application/vnd.dev.sigstore.trustedroot+json;version=0.1",
+  "tlogs": [
+    {
+      "baseUrl": "https://rekor.xcert.eu",
+      "hashAlgorithm": "SHA2_256",
+      "publicKey": {
+        "rawBytes": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEMFCURHm3gVeYWWQdyDdOY85QNzlxYkO5IUcDJE8UNvNg4Enwq9r1aKjmI5bfSP5N2PKxaUXEj/2rIXpQPK/vsw==",
+        "keyDetails": "PKIX_ECDSA_P256_SHA_256",
+        "validFor": {
+          "start": "2026-08-24T00:00:00.000Z"
+        }
+      },
+      "logId": {
+        "keyId": "/e2LxoLg7cS6YKHb/rkd7J62RRdKUHDff+/Fr7SJQLo="
+      }
+    }
+  ],
+  "certificateAuthorities": [
+    {
+      "subject": {
+        "organization": "xcert"
+      },
+      "uri": "https://fulcio.xcert.eu",
+      "certChain": {
+        "certificates": [
+          {
+            "rawBytes": "MIIBpjCCAUygAwIBAgIUN9XVwuTu1Q0jCBoCMe/k4VMpHogwCgYIKoZIzj0EAwIwPzEOMAwGA1UECgwFeGNlcnQxCzAJBgNVBAYTAkVTMQ8wDQYDVQQIDAZNYWRyaWQxDzANBgNVBAcMBk1hZHJpZDAeFw0yNjA4MjQxNTA4MDFaFw0zNjA4MjExNTA4MDFaMD8xDjAMBgNVBAoMBXhjZXJ0MQswCQYDVQQGEwJFUzEPMA0GA1UECAwGTWFkcmlkMQ8wDQYDVQQHDAZNYWRyaWQwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAASrf3b1QJAd1ZKRrr7DSbwfw6zSBu1B1AqiFlRR0LXTlzjox9Qb2tzrk9TMl22cpm0r3UC7eEm7YijOOfny1hjvoyYwJDASBgNVHRMBAf8ECDAGAQH/AgEBMA4GA1UdDwEB/wQEAwIBBjAKBggqhkjOPQQDAgNIADBFAiEAoOShMBlZDdDdw9FRMB7iQIJtmuNGQWBp2t07tSi0WHMCIDq0b67Ie6cnl+1LgIMsO+dwLVZVMBPB9MNQBJniVS6q"
+          }
+        ]
+      },
+      "validFor": {
+        "start": "2026-08-24T15:08:01.000Z"
+      }
+    }
+  ]
+}
